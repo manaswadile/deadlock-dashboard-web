@@ -1,7 +1,8 @@
 # Deadlock Analysis & Resource Allocation Dashboard
 ### Operating Systems IA Activity 2 — Avoidance, Detection, Prevention, and Recovery
 
-[![Deadlock Dashboard CI](https://github.com/your-username/deadlock_dashboard_web/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/deadlock_dashboard_web/actions)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://manaswadile.github.io/deadlock-dashboard-web/)
+[![Deadlock Dashboard CI](https://github.com/manaswadile/deadlock-dashboard-web/actions/workflows/ci.yml/badge.svg)](https://github.com/manaswadile/deadlock-dashboard-web/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -13,10 +14,20 @@ A comprehensive, production-grade web application and technical simulation platf
 
 ## 🌐 Live Demo & Deployment
 
-This project is 100% static (HTML5/CSS3/Vanilla ES6 JS) and requires zero backend server configuration.
+- **Live URL**: [https://manaswadile.github.io/deadlock-dashboard-web/](https://manaswadile.github.io/deadlock-dashboard-web/)
+- **GitHub Repository**: [https://github.com/manaswadile/deadlock-dashboard-web](https://github.com/manaswadile/deadlock-dashboard-web)
 
-- **GitHub Pages Ready**: Automatically deploys via the included GitHub Actions workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
-- **Direct Local Preview**: Simply open `index.html` in any modern web browser or run `npx serve .`.
+---
+
+## 👥 Project Team
+
+| Member Name | PRN | Role |
+| :--- | :--- | :--- |
+| **Manas Wadile** | `202401040330` | Core OS Algorithms & Implementation |
+| **Soham Chaudhary** | `202401040320` | UI/UX & Testing Suite |
+
+- **Project Guide:** Dr. Vijaykumar Mantri
+- **Institution:** MIT Academy of Engineering (MITAOE)
 
 ---
 
@@ -109,7 +120,7 @@ git branch -M main
 Create an empty repository on [GitHub](https://github.com/new) (e.g., named `deadlock-dashboard-web`), then link and push:
 ```bash
 # Add your GitHub repository remote URL
-git remote add origin https://github.com/<your-username>/deadlock-dashboard-web.git
+git remote add origin https://github.com/manaswadile/deadlock-dashboard-web.git
 
 # Push to GitHub
 git push -u origin main
@@ -118,7 +129,7 @@ git push -u origin main
 ### Step 3: Enable GitHub Pages (Optional 1-Click Hosting)
 1. Go to your repository on GitHub: `Settings` &rarr; `Pages`.
 2. Under **Build and deployment** &rarr; **Source**, select **GitHub Actions** (or **Deploy from a branch** &rarr; `main` / `/ (root)`).
-3. The site will be live at `https://<your-username>.github.io/deadlock-dashboard-web/`.
+3. The site will be live at `https://manaswadile.github.io/deadlock-dashboard-web/`.
 
 ---
 
